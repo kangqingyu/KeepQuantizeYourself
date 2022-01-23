@@ -1,0 +1,6 @@
+framework module Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests {
+  umbrella header "Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
