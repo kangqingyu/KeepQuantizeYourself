@@ -8,6 +8,7 @@
 
 #import "KQYRecordIntakePage.h"
 #import "KQYIntakeView.h"
+#import "Masonry.h"
 
 @interface KQYRecordIntakePage ()
 
@@ -19,9 +20,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self initUI];
 }
 
+#pragma mark - Private
+
+- (void)initUI {
+    [self.view addSubview:self.intakeView];
+    [self.intakeView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(50);
+            make.left.right.mas_equalTo(0);
+            make.height.mas_equalTo(300);
+    }];
+}
 
 #pragma mark - Property
 

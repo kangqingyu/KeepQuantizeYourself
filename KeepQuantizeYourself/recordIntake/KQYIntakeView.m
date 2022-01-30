@@ -35,7 +35,7 @@
     }];
 }
 
-#pragma mark -
+#pragma mark - UITableViewDelegate
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;

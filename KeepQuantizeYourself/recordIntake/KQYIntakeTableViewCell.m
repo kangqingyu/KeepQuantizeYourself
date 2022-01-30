@@ -7,6 +7,7 @@
 //
 
 #import "KQYIntakeTableViewCell.h"
+#import "Masonry.h"
 
 @interface KQYIntakeTableViewCell ()
 
@@ -17,9 +18,32 @@
 
 @implementation KQYIntakeTableViewCell
 
+#pragma mark - Private
+
+- (void)initUI {
+    [self.contentView addSubview:self.foodNameButton];
+    [self.foodNameButton mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(1);
+            make.centerY.mas_equalTo(0);
+            make.width.mas_equalTo(90);
+    }];
+    
+    [self.contentView addSubview:self.intakeCountTextField];
+    [self.intakeCountTextField mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(self.foodNameButton.mas_right).offset(10);
+            make.centerY.mas_equalTo(0);
+            make.width.mas_equalTo(100);
+            make.right.mas_lessThanOrEqualTo(0);
+    }];
+}
+
+#pragma mark - Action
+
 - (void)foodNameBtnTouchUpInside {
     
 }
+
+#pragma mark - Property
 
 - (UIButton *)foodNameButton {
     if (!_foodNameButton) {
