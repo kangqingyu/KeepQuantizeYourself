@@ -9,6 +9,7 @@
 #import "KQYTabBarViewController.h"
 #import "KQYPersonCenterViewController.h"
 #import "KQYRecordIntakeViewController.h"
+#import "KQYStatisticalViewController.h"
 
 @interface KQYTabBarViewController ()
 
@@ -18,25 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor purpleColor];
-    
-    KQYPersonCenterViewController *personCenterVC = [[KQYPersonCenterViewController alloc] init];
-    
     KQYRecordIntakeViewController *recordIntakeVC = [[KQYRecordIntakeViewController alloc] init];
+
+    KQYPersonCenterViewController *personCenterVC = [[KQYPersonCenterViewController alloc] init];
+    KQYStatisticalViewController *staticVC = [[KQYStatisticalViewController alloc] init];
     
-    [self addChildViewController:personCenterVC];
+    
     [self addChildViewController:recordIntakeVC];
+    [self addChildViewController:staticVC];
+    [self addChildViewController:personCenterVC];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ 
 
 @end

@@ -18,6 +18,8 @@
 		682F8F8F27CAF41C00D85A8B /* KQYStatisticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F8627CAF41C00D85A8B /* KQYStatisticalViewController.m */; };
 		682F8F9227CAF45800D85A8B /* KQYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F9127CAF45800D85A8B /* KQYTabBarViewController.m */; };
 		682F8F9527CAF4C000D85A8B /* KQYRecordIntakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F9427CAF4C000D85A8B /* KQYRecordIntakeViewController.m */; };
+		682F8F9C27CB0CB000D85A8B /* KQYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F9B27CB0CB000D85A8B /* KQYUtil.m */; };
+		682F8FA027CB141200D85A8B /* UIColor+KQYHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F9F27CB141200D85A8B /* UIColor+KQYHex.m */; };
 		6876EA9B279D367600519CA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876EA9A279D367600519CA0 /* AppDelegate.m */; };
 		6876EA9E279D367600519CA0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876EA9D279D367600519CA0 /* SceneDelegate.m */; };
 		6876EAA4279D367600519CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6876EAA2279D367600519CA0 /* Main.storyboard */; };
@@ -73,6 +75,11 @@
 		682F8F9127CAF45800D85A8B /* KQYTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KQYTabBarViewController.m; sourceTree = "<group>"; };
 		682F8F9327CAF4C000D85A8B /* KQYRecordIntakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KQYRecordIntakeViewController.h; sourceTree = "<group>"; };
 		682F8F9427CAF4C000D85A8B /* KQYRecordIntakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KQYRecordIntakeViewController.m; sourceTree = "<group>"; };
+		682F8F9A27CB0CB000D85A8B /* KQYUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KQYUtil.h; sourceTree = "<group>"; };
+		682F8F9B27CB0CB000D85A8B /* KQYUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KQYUtil.m; sourceTree = "<group>"; };
+		682F8F9E27CB141200D85A8B /* UIColor+KQYHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+KQYHex.h"; sourceTree = "<group>"; };
+		682F8F9F27CB141200D85A8B /* UIColor+KQYHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KQYHex.m"; sourceTree = "<group>"; };
+		682F8FA127CB17E900D85A8B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6876EA96279D367600519CA0 /* KeepQuantizeYourself.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepQuantizeYourself.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6876EA99279D367600519CA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6876EA9A279D367600519CA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -151,6 +158,9 @@
 			children = (
 				682F8F9027CAF45800D85A8B /* KQYTabBarViewController.h */,
 				682F8F9127CAF45800D85A8B /* KQYTabBarViewController.m */,
+				682F8F9A27CB0CB000D85A8B /* KQYUtil.h */,
+				682F8F9B27CB0CB000D85A8B /* KQYUtil.m */,
+				682F8FA127CB17E900D85A8B /* PrefixHeader.pch */,
 			);
 			path = KQYFoundation;
 			sourceTree = "<group>";
@@ -197,6 +207,15 @@
 			path = KeepQuantizeYourself/KQYStatistical;
 			sourceTree = SOURCE_ROOT;
 		};
+		682F8F9D27CB13F200D85A8B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				682F8F9E27CB141200D85A8B /* UIColor+KQYHex.h */,
+				682F8F9F27CB141200D85A8B /* UIColor+KQYHex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		6876EA8D279D367600519CA0 = {
 			isa = PBXGroup;
 			children = (
@@ -226,10 +245,11 @@
 				6876EA9A279D367600519CA0 /* AppDelegate.m */,
 				6876EA9C279D367600519CA0 /* SceneDelegate.h */,
 				6876EA9D279D367600519CA0 /* SceneDelegate.m */,
+				682F8F9D27CB13F200D85A8B /* Category */,
 				682F8F7427CAF39A00D85A8B /* KQYFoundation */,
-				682F8F7E27CAF41C00D85A8B /* KQYPersonCenter */,
 				682F8F7527CAF41C00D85A8B /* KQYRecordIntake */,
 				682F8F8327CAF41C00D85A8B /* KQYStatistical */,
+				682F8F7E27CAF41C00D85A8B /* KQYPersonCenter */,
 				6876EAA2279D367600519CA0 /* Main.storyboard */,
 				6876EAA5279D367800519CA0 /* Assets.xcassets */,
 				6876EAA7279D367800519CA0 /* LaunchScreen.storyboard */,
@@ -498,6 +518,7 @@
 			files = (
 				682F8F9227CAF45800D85A8B /* KQYTabBarViewController.m in Sources */,
 				682F8F8F27CAF41C00D85A8B /* KQYStatisticalViewController.m in Sources */,
+				682F8FA027CB141200D85A8B /* UIColor+KQYHex.m in Sources */,
 				682F8F9527CAF4C000D85A8B /* KQYRecordIntakeViewController.m in Sources */,
 				682F8F8927CAF41C00D85A8B /* KQYIntakeViewModel.m in Sources */,
 				682F8F8D27CAF41C00D85A8B /* KQYPersonCenterViewModel.m in Sources */,
@@ -507,6 +528,7 @@
 				682F8F8C27CAF41C00D85A8B /* KQYPersonCenterViewController.m in Sources */,
 				6876EAAC279D367800519CA0 /* main.m in Sources */,
 				682F8F8A27CAF41C00D85A8B /* KQYIntakeView.m in Sources */,
+				682F8F9C27CB0CB000D85A8B /* KQYUtil.m in Sources */,
 				682F8F8827CAF41C00D85A8B /* KQYRecordIntakePage.m in Sources */,
 				6876EA9E279D367600519CA0 /* SceneDelegate.m in Sources */,
 			);
@@ -685,6 +707,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3M5S77SXDS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/kqy/Desktop/kqyCode/github/KeepQuantizeYourself/KeepQuantizeYourself/KQYFoundation/PrefixHeader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KeepQuantizeYourself/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -714,6 +738,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3M5S77SXDS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/kqy/Desktop/kqyCode/github/KeepQuantizeYourself/KeepQuantizeYourself/KQYFoundation/PrefixHeader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KeepQuantizeYourself/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

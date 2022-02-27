@@ -7,8 +7,12 @@
 //
 
 #import "KQYRecordIntakeViewController.h"
+#import "KQYStatisticalViewController.h"
+#import "KQYUtil.h"
 
 @interface KQYRecordIntakeViewController ()
+
+@property (nonatomic, strong) UIButton *viewStaticButton;
 
 @end
 
@@ -25,18 +29,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self initUI];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)initUI {
+    [self.view addSubview:self.viewStaticButton];
+    [self.viewStaticButton mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(93);
+            make.left.mas_equalTo(30);
+    }];
 }
-*/
+
+- (void)viewStaticTouchUpInside {
+    KQYStatisticalViewController *staticVC = [[KQYStatisticalViewController alloc] init];
+    [self.navigationController pushViewController:staticVC animated:YES];
+}
+
+- (UIButton *)viewStaticButton {
+    if (!_viewStaticButton) {
+        _viewStaticButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_viewStaticButton setTitle:@"查看近一周数据统计" forState:UIControlStateNormal];
+        [_viewStaticButton setTitleColor:KQYHEX_1(@"999999") forState:UIControlStateNormal];
+        _viewStaticButton.titleLabel.font = KQYFONT_1(12);
+        SEL selector = @selector(viewStaticTouchUpInside);
+        [_viewStaticButton addTarget:self action:selector forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _viewStaticButton;
+}
 
 @end

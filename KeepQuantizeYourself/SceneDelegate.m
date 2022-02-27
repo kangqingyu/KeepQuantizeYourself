@@ -24,20 +24,11 @@
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
     UIWindowScene *windowScene = (UIWindowScene *)scene;
         self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
-//        self.window.backgroundColor = [UIColor purpleColor];
  
     KQYTabBarViewController *tabBar = [[KQYTabBarViewController alloc] init];
-    
-//    KQYPersonCenterViewController *personCenterVC = [[KQYPersonCenterViewController alloc] init];
-//
-//    KQYRecordIntakeViewController *recordIntakeVC = [[KQYRecordIntakeViewController alloc] init];
-//    UITabBarController *tabBar = [[UITabBarController alloc] init];
-//    [tabBar setViewControllers:@[personCenterVC, recordIntakeVC]];
-//    tabBar.delegate = self;
-    
+ 
     UINavigationController *naviCtrl = [[UINavigationController alloc] initWithRootViewController:tabBar];
     
-//    self.window.rootViewController = personCenterVC;
     self.window.rootViewController = naviCtrl;
     [self.window makeKeyAndVisible];
     
