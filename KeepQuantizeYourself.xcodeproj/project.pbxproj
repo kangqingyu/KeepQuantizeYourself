@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4AE7C4DB4FAF49DE9C9F9421 /* Pods_KeepQuantizeYourself.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372D920A5C75A3C7915395B6 /* Pods_KeepQuantizeYourself.framework */; };
-		682F8F8827CAF41C00D85A8B /* KQYRecordIntakePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F7627CAF41C00D85A8B /* KQYRecordIntakePage.m */; };
 		682F8F8927CAF41C00D85A8B /* KQYIntakeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F7727CAF41C00D85A8B /* KQYIntakeViewModel.m */; };
 		682F8F8A27CAF41C00D85A8B /* KQYIntakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F7827CAF41C00D85A8B /* KQYIntakeView.m */; };
 		682F8F8B27CAF41C00D85A8B /* KQYIntakeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F7927CAF41C00D85A8B /* KQYIntakeTableViewCell.m */; };
@@ -55,11 +54,9 @@
 		372D920A5C75A3C7915395B6 /* Pods_KeepQuantizeYourself.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepQuantizeYourself.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		424C81C9DE0EB21C645BB3B3 /* Pods_KeepQuantizeYourselfTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepQuantizeYourselfTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4611161EBDF3C52E775AB783 /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig"; sourceTree = "<group>"; };
-		682F8F7627CAF41C00D85A8B /* KQYRecordIntakePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYRecordIntakePage.m; sourceTree = "<group>"; };
 		682F8F7727CAF41C00D85A8B /* KQYIntakeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYIntakeViewModel.m; sourceTree = "<group>"; };
 		682F8F7827CAF41C00D85A8B /* KQYIntakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYIntakeView.m; sourceTree = "<group>"; };
 		682F8F7927CAF41C00D85A8B /* KQYIntakeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYIntakeTableViewCell.m; sourceTree = "<group>"; };
-		682F8F7A27CAF41C00D85A8B /* KQYRecordIntakePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQYRecordIntakePage.h; sourceTree = "<group>"; };
 		682F8F7B27CAF41C00D85A8B /* KQYIntakeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQYIntakeTableViewCell.h; sourceTree = "<group>"; };
 		682F8F7C27CAF41C00D85A8B /* KQYIntakeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQYIntakeViewModel.h; sourceTree = "<group>"; };
 		682F8F7D27CAF41C00D85A8B /* KQYIntakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQYIntakeView.h; sourceTree = "<group>"; };
@@ -176,8 +173,6 @@
 				682F8F7827CAF41C00D85A8B /* KQYIntakeView.m */,
 				682F8F7B27CAF41C00D85A8B /* KQYIntakeTableViewCell.h */,
 				682F8F7927CAF41C00D85A8B /* KQYIntakeTableViewCell.m */,
-				682F8F7A27CAF41C00D85A8B /* KQYRecordIntakePage.h */,
-				682F8F7627CAF41C00D85A8B /* KQYRecordIntakePage.m */,
 			);
 			name = KQYRecordIntake;
 			path = KeepQuantizeYourself/KQYRecordIntake;
@@ -529,7 +524,6 @@
 				6876EAAC279D367800519CA0 /* main.m in Sources */,
 				682F8F8A27CAF41C00D85A8B /* KQYIntakeView.m in Sources */,
 				682F8F9C27CB0CB000D85A8B /* KQYUtil.m in Sources */,
-				682F8F8827CAF41C00D85A8B /* KQYRecordIntakePage.m in Sources */,
 				6876EA9E279D367600519CA0 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,10 +9,12 @@
 #import "KQYRecordIntakeViewController.h"
 #import "KQYStatisticalViewController.h"
 #import "KQYUtil.h"
+#import "KQYIntakeView.h"
 
 @interface KQYRecordIntakeViewController ()
 
 @property (nonatomic, strong) UIButton *viewStaticButton;
+@property (nonatomic, strong) KQYIntakeView *intakeView;
 
 @end
 
@@ -40,11 +42,27 @@
             make.top.mas_equalTo(93);
             make.left.mas_equalTo(30);
     }];
+    
+    [self.view addSubview:self.intakeView];
+    [self.intakeView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(50);
+            make.left.right.mas_equalTo(0);
+            make.height.mas_equalTo(300);
+    }];
 }
 
 - (void)viewStaticTouchUpInside {
     KQYStatisticalViewController *staticVC = [[KQYStatisticalViewController alloc] init];
     [self.navigationController pushViewController:staticVC animated:YES];
+}
+
+#pragma mark - Property
+
+- (KQYIntakeView *)intakeView {
+    if (!_intakeView) {
+        _intakeView = [[KQYIntakeView alloc] init];
+    }
+    return _intakeView;
 }
 
 - (UIButton *)viewStaticButton {
