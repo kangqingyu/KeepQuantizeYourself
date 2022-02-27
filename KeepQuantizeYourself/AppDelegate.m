@@ -7,7 +7,7 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()<UITabBarControllerDelegate>
+@interface AppDelegate ()
 
 @end
 
