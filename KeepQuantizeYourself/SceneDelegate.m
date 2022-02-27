@@ -7,6 +7,10 @@
 
 #import "SceneDelegate.h"
 
+#import "KQYTabBarViewController.h"
+#import "KQYPersonCenterViewController.h"
+#import "KQYRecordIntakeViewController.h"
+
 @interface SceneDelegate ()
 
 @end
@@ -18,6 +22,34 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    UIWindowScene *windowScene = (UIWindowScene *)scene;
+        self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
+        self.window.backgroundColor = [UIColor purpleColor];
+//        UIViewController *VC = [[UIViewController alloc]init];
+//        UINavigationController *NVC = [[UINavigationController alloc]initWithRootViewController:VC];
+//        [self.window setRootViewController:NVC];
+//        [self.window makeKeyAndVisible];
+    
+    
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    
+//    KQYTabBarViewController *tabBar = [[KQYTabBarViewController alloc] init];
+//    tabBar.delegate = self;
+    
+    KQYPersonCenterViewController *personCenterVC = [[KQYPersonCenterViewController alloc] init];
+    
+    KQYRecordIntakeViewController *recordIntakeVC = [[KQYRecordIntakeViewController alloc] init];
+    UITabBarController *tabBar = [[UITabBarController alloc] init];
+    [tabBar setViewControllers:@[personCenterVC, recordIntakeVC]];
+//    tabBar.delegate = self;
+    
+    UINavigationController *naviCtrl = [[UINavigationController alloc] initWithRootViewController:tabBar];
+    
+//    self.window.rootViewController = personCenterVC;
+    self.window.rootViewController = tabBar;
+    [self.window makeKeyAndVisible];
+    
 }
 
 

@@ -8,9 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4AE7C4DB4FAF49DE9C9F9421 /* Pods_KeepQuantizeYourself.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372D920A5C75A3C7915395B6 /* Pods_KeepQuantizeYourself.framework */; };
+		682F8F8827CAF41C00D85A8B /* KQYRecordIntakePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F7627CAF41C00D85A8B /* KQYRecordIntakePage.m */; };
+		682F8F8927CAF41C00D85A8B /* KQYIntakeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F7727CAF41C00D85A8B /* KQYIntakeViewModel.m */; };
+		682F8F8A27CAF41C00D85A8B /* KQYIntakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F7827CAF41C00D85A8B /* KQYIntakeView.m */; };
+		682F8F8B27CAF41C00D85A8B /* KQYIntakeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F7927CAF41C00D85A8B /* KQYIntakeTableViewCell.m */; };
+		682F8F8C27CAF41C00D85A8B /* KQYPersonCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F8027CAF41C00D85A8B /* KQYPersonCenterViewController.m */; };
+		682F8F8D27CAF41C00D85A8B /* KQYPersonCenterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F8127CAF41C00D85A8B /* KQYPersonCenterViewModel.m */; };
+		682F8F8E27CAF41C00D85A8B /* KQYStatisticalViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F8527CAF41C00D85A8B /* KQYStatisticalViewModel.m */; };
+		682F8F8F27CAF41C00D85A8B /* KQYStatisticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F8627CAF41C00D85A8B /* KQYStatisticalViewController.m */; };
+		682F8F9227CAF45800D85A8B /* KQYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F9127CAF45800D85A8B /* KQYTabBarViewController.m */; };
+		682F8F9527CAF4C000D85A8B /* KQYRecordIntakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F9427CAF4C000D85A8B /* KQYRecordIntakeViewController.m */; };
 		6876EA9B279D367600519CA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876EA9A279D367600519CA0 /* AppDelegate.m */; };
 		6876EA9E279D367600519CA0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876EA9D279D367600519CA0 /* SceneDelegate.m */; };
-		6876EAA1279D367600519CA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876EAA0279D367600519CA0 /* ViewController.m */; };
 		6876EAA4279D367600519CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6876EAA2279D367600519CA0 /* Main.storyboard */; };
 		6876EAA6279D367800519CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6876EAA5279D367800519CA0 /* Assets.xcassets */; };
 		6876EAA9279D367800519CA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6876EAA7279D367800519CA0 /* LaunchScreen.storyboard */; };
@@ -18,10 +27,6 @@
 		6876EAB6279D367800519CA0 /* KeepQuantizeYourselfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876EAB5279D367800519CA0 /* KeepQuantizeYourselfTests.m */; };
 		6876EAC0279D367800519CA0 /* KeepQuantizeYourselfUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876EABF279D367800519CA0 /* KeepQuantizeYourselfUITests.m */; };
 		6876EAC2279D367800519CA0 /* KeepQuantizeYourselfUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876EAC1279D367800519CA0 /* KeepQuantizeYourselfUITestsLaunchTests.m */; };
-		68B7679B279D5AE700C1882F /* KQYRecordIntakePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B7679A279D5AE700C1882F /* KQYRecordIntakePage.m */; };
-		68B7679E279D5C1200C1882F /* KQYIntakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B7679D279D5C1200C1882F /* KQYIntakeView.m */; };
-		68B767A1279D5DA100C1882F /* KQYIntakeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B767A0279D5DA100C1882F /* KQYIntakeTableViewCell.m */; };
-		68B767A4279D5E4500C1882F /* KQYIntakeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B767A3279D5E4400C1882F /* KQYIntakeViewModel.m */; };
 		AC0340D0F8156AAAAB106440 /* Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF43A07D99C59FC3A2D4A01 /* Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework */; };
 		C0927130A00D8867A3CFD5DF /* Pods_KeepQuantizeYourselfTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424C81C9DE0EB21C645BB3B3 /* Pods_KeepQuantizeYourselfTests.framework */; };
 /* End PBXBuildFile section */
@@ -48,13 +53,31 @@
 		372D920A5C75A3C7915395B6 /* Pods_KeepQuantizeYourself.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepQuantizeYourself.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		424C81C9DE0EB21C645BB3B3 /* Pods_KeepQuantizeYourselfTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepQuantizeYourselfTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4611161EBDF3C52E775AB783 /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig"; sourceTree = "<group>"; };
+		682F8F7627CAF41C00D85A8B /* KQYRecordIntakePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYRecordIntakePage.m; sourceTree = "<group>"; };
+		682F8F7727CAF41C00D85A8B /* KQYIntakeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYIntakeViewModel.m; sourceTree = "<group>"; };
+		682F8F7827CAF41C00D85A8B /* KQYIntakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYIntakeView.m; sourceTree = "<group>"; };
+		682F8F7927CAF41C00D85A8B /* KQYIntakeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYIntakeTableViewCell.m; sourceTree = "<group>"; };
+		682F8F7A27CAF41C00D85A8B /* KQYRecordIntakePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQYRecordIntakePage.h; sourceTree = "<group>"; };
+		682F8F7B27CAF41C00D85A8B /* KQYIntakeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQYIntakeTableViewCell.h; sourceTree = "<group>"; };
+		682F8F7C27CAF41C00D85A8B /* KQYIntakeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQYIntakeViewModel.h; sourceTree = "<group>"; };
+		682F8F7D27CAF41C00D85A8B /* KQYIntakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQYIntakeView.h; sourceTree = "<group>"; };
+		682F8F7F27CAF41C00D85A8B /* KQYPersonCenterViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQYPersonCenterViewModel.h; sourceTree = "<group>"; };
+		682F8F8027CAF41C00D85A8B /* KQYPersonCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYPersonCenterViewController.m; sourceTree = "<group>"; };
+		682F8F8127CAF41C00D85A8B /* KQYPersonCenterViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYPersonCenterViewModel.m; sourceTree = "<group>"; };
+		682F8F8227CAF41C00D85A8B /* KQYPersonCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQYPersonCenterViewController.h; sourceTree = "<group>"; };
+		682F8F8427CAF41C00D85A8B /* KQYStatisticalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQYStatisticalViewController.h; sourceTree = "<group>"; };
+		682F8F8527CAF41C00D85A8B /* KQYStatisticalViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYStatisticalViewModel.m; sourceTree = "<group>"; };
+		682F8F8627CAF41C00D85A8B /* KQYStatisticalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYStatisticalViewController.m; sourceTree = "<group>"; };
+		682F8F8727CAF41C00D85A8B /* KQYStatisticalViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQYStatisticalViewModel.h; sourceTree = "<group>"; };
+		682F8F9027CAF45800D85A8B /* KQYTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KQYTabBarViewController.h; sourceTree = "<group>"; };
+		682F8F9127CAF45800D85A8B /* KQYTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KQYTabBarViewController.m; sourceTree = "<group>"; };
+		682F8F9327CAF4C000D85A8B /* KQYRecordIntakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KQYRecordIntakeViewController.h; sourceTree = "<group>"; };
+		682F8F9427CAF4C000D85A8B /* KQYRecordIntakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KQYRecordIntakeViewController.m; sourceTree = "<group>"; };
 		6876EA96279D367600519CA0 /* KeepQuantizeYourself.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepQuantizeYourself.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6876EA99279D367600519CA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6876EA9A279D367600519CA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6876EA9C279D367600519CA0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		6876EA9D279D367600519CA0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		6876EA9F279D367600519CA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6876EAA0279D367600519CA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6876EAA3279D367600519CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6876EAA5279D367800519CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6876EAA8279D367800519CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,14 +88,6 @@
 		6876EABB279D367800519CA0 /* KeepQuantizeYourselfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepQuantizeYourselfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6876EABF279D367800519CA0 /* KeepQuantizeYourselfUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeepQuantizeYourselfUITests.m; sourceTree = "<group>"; };
 		6876EAC1279D367800519CA0 /* KeepQuantizeYourselfUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeepQuantizeYourselfUITestsLaunchTests.m; sourceTree = "<group>"; };
-		68B76799279D5AE700C1882F /* KQYRecordIntakePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KQYRecordIntakePage.h; sourceTree = "<group>"; };
-		68B7679A279D5AE700C1882F /* KQYRecordIntakePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KQYRecordIntakePage.m; sourceTree = "<group>"; };
-		68B7679C279D5C1200C1882F /* KQYIntakeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KQYIntakeView.h; sourceTree = "<group>"; };
-		68B7679D279D5C1200C1882F /* KQYIntakeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KQYIntakeView.m; sourceTree = "<group>"; };
-		68B7679F279D5DA100C1882F /* KQYIntakeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KQYIntakeTableViewCell.h; sourceTree = "<group>"; };
-		68B767A0279D5DA100C1882F /* KQYIntakeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KQYIntakeTableViewCell.m; sourceTree = "<group>"; };
-		68B767A2279D5E4400C1882F /* KQYIntakeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KQYIntakeViewModel.h; sourceTree = "<group>"; };
-		68B767A3279D5E4400C1882F /* KQYIntakeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KQYIntakeViewModel.m; sourceTree = "<group>"; };
 		764FD9F08B06901D7CDA5DAA /* Pods-KeepQuantizeYourself.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourself.release.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourself/Pods-KeepQuantizeYourself.release.xcconfig"; sourceTree = "<group>"; };
 		ADF43A07D99C59FC3A2D4A01 /* Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17E1A84457774520C4D77C7 /* Pods-KeepQuantizeYourself.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourself.debug.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourself/Pods-KeepQuantizeYourself.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +146,57 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		682F8F7427CAF39A00D85A8B /* KQYFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				682F8F9027CAF45800D85A8B /* KQYTabBarViewController.h */,
+				682F8F9127CAF45800D85A8B /* KQYTabBarViewController.m */,
+			);
+			path = KQYFoundation;
+			sourceTree = "<group>";
+		};
+		682F8F7527CAF41C00D85A8B /* KQYRecordIntake */ = {
+			isa = PBXGroup;
+			children = (
+				682F8F9327CAF4C000D85A8B /* KQYRecordIntakeViewController.h */,
+				682F8F9427CAF4C000D85A8B /* KQYRecordIntakeViewController.m */,
+				682F8F7C27CAF41C00D85A8B /* KQYIntakeViewModel.h */,
+				682F8F7727CAF41C00D85A8B /* KQYIntakeViewModel.m */,
+				682F8F7D27CAF41C00D85A8B /* KQYIntakeView.h */,
+				682F8F7827CAF41C00D85A8B /* KQYIntakeView.m */,
+				682F8F7B27CAF41C00D85A8B /* KQYIntakeTableViewCell.h */,
+				682F8F7927CAF41C00D85A8B /* KQYIntakeTableViewCell.m */,
+				682F8F7A27CAF41C00D85A8B /* KQYRecordIntakePage.h */,
+				682F8F7627CAF41C00D85A8B /* KQYRecordIntakePage.m */,
+			);
+			name = KQYRecordIntake;
+			path = KeepQuantizeYourself/KQYRecordIntake;
+			sourceTree = SOURCE_ROOT;
+		};
+		682F8F7E27CAF41C00D85A8B /* KQYPersonCenter */ = {
+			isa = PBXGroup;
+			children = (
+				682F8F8227CAF41C00D85A8B /* KQYPersonCenterViewController.h */,
+				682F8F8027CAF41C00D85A8B /* KQYPersonCenterViewController.m */,
+				682F8F7F27CAF41C00D85A8B /* KQYPersonCenterViewModel.h */,
+				682F8F8127CAF41C00D85A8B /* KQYPersonCenterViewModel.m */,
+			);
+			name = KQYPersonCenter;
+			path = KeepQuantizeYourself/KQYPersonCenter;
+			sourceTree = SOURCE_ROOT;
+		};
+		682F8F8327CAF41C00D85A8B /* KQYStatistical */ = {
+			isa = PBXGroup;
+			children = (
+				682F8F8427CAF41C00D85A8B /* KQYStatisticalViewController.h */,
+				682F8F8627CAF41C00D85A8B /* KQYStatisticalViewController.m */,
+				682F8F8527CAF41C00D85A8B /* KQYStatisticalViewModel.m */,
+				682F8F8727CAF41C00D85A8B /* KQYStatisticalViewModel.h */,
+			);
+			name = KQYStatistical;
+			path = KeepQuantizeYourself/KQYStatistical;
+			sourceTree = SOURCE_ROOT;
+		};
 		6876EA8D279D367600519CA0 = {
 			isa = PBXGroup;
 			children = (
@@ -160,10 +226,10 @@
 				6876EA9A279D367600519CA0 /* AppDelegate.m */,
 				6876EA9C279D367600519CA0 /* SceneDelegate.h */,
 				6876EA9D279D367600519CA0 /* SceneDelegate.m */,
-				6876EA9F279D367600519CA0 /* ViewController.h */,
-				6876EAA0279D367600519CA0 /* ViewController.m */,
-				68B76798279D5AB500C1882F /* personCenter */,
-				68B76796279D5A6A00C1882F /* recordIntake */,
+				682F8F7427CAF39A00D85A8B /* KQYFoundation */,
+				682F8F7E27CAF41C00D85A8B /* KQYPersonCenter */,
+				682F8F7527CAF41C00D85A8B /* KQYRecordIntake */,
+				682F8F8327CAF41C00D85A8B /* KQYStatistical */,
 				6876EAA2279D367600519CA0 /* Main.storyboard */,
 				6876EAA5279D367800519CA0 /* Assets.xcassets */,
 				6876EAA7279D367800519CA0 /* LaunchScreen.storyboard */,
@@ -188,28 +254,6 @@
 				6876EAC1279D367800519CA0 /* KeepQuantizeYourselfUITestsLaunchTests.m */,
 			);
 			path = KeepQuantizeYourselfUITests;
-			sourceTree = "<group>";
-		};
-		68B76796279D5A6A00C1882F /* recordIntake */ = {
-			isa = PBXGroup;
-			children = (
-				68B76799279D5AE700C1882F /* KQYRecordIntakePage.h */,
-				68B7679A279D5AE700C1882F /* KQYRecordIntakePage.m */,
-				68B7679C279D5C1200C1882F /* KQYIntakeView.h */,
-				68B7679D279D5C1200C1882F /* KQYIntakeView.m */,
-				68B767A2279D5E4400C1882F /* KQYIntakeViewModel.h */,
-				68B767A3279D5E4400C1882F /* KQYIntakeViewModel.m */,
-				68B7679F279D5DA100C1882F /* KQYIntakeTableViewCell.h */,
-				68B767A0279D5DA100C1882F /* KQYIntakeTableViewCell.m */,
-			);
-			path = recordIntake;
-			sourceTree = "<group>";
-		};
-		68B76798279D5AB500C1882F /* personCenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = personCenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,13 +496,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6876EAA1279D367600519CA0 /* ViewController.m in Sources */,
-				68B7679B279D5AE700C1882F /* KQYRecordIntakePage.m in Sources */,
-				68B7679E279D5C1200C1882F /* KQYIntakeView.m in Sources */,
+				682F8F9227CAF45800D85A8B /* KQYTabBarViewController.m in Sources */,
+				682F8F8F27CAF41C00D85A8B /* KQYStatisticalViewController.m in Sources */,
+				682F8F9527CAF4C000D85A8B /* KQYRecordIntakeViewController.m in Sources */,
+				682F8F8927CAF41C00D85A8B /* KQYIntakeViewModel.m in Sources */,
+				682F8F8D27CAF41C00D85A8B /* KQYPersonCenterViewModel.m in Sources */,
+				682F8F8E27CAF41C00D85A8B /* KQYStatisticalViewModel.m in Sources */,
 				6876EA9B279D367600519CA0 /* AppDelegate.m in Sources */,
-				68B767A4279D5E4500C1882F /* KQYIntakeViewModel.m in Sources */,
-				68B767A1279D5DA100C1882F /* KQYIntakeTableViewCell.m in Sources */,
+				682F8F8B27CAF41C00D85A8B /* KQYIntakeTableViewCell.m in Sources */,
+				682F8F8C27CAF41C00D85A8B /* KQYPersonCenterViewController.m in Sources */,
 				6876EAAC279D367800519CA0 /* main.m in Sources */,
+				682F8F8A27CAF41C00D85A8B /* KQYIntakeView.m in Sources */,
+				682F8F8827CAF41C00D85A8B /* KQYRecordIntakePage.m in Sources */,
 				6876EA9E279D367600519CA0 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -643,6 +692,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -671,6 +721,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
