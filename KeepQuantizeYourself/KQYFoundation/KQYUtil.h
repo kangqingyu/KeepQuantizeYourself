@@ -7,12 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RACmetamacros.h"
 
 #import "UIColor+KQYHex.h"
 
 #define KQYFONT(...)        metamacro_concat(KQYFONT_, metamacro_argcount(__VA_ARGS__))(__VA_ARGS__)
+#define DDWFONT(...)        metamacro_concat(DDWFONT_, metamacro_argcount(__VA_ARGS__))(__VA_ARGS__)
+
+
 #define KQYHEX(...)         metamacro_concat(KQYHEX_, metamacro_argcount(__VA_ARGS__))(__VA_ARGS__)
 
+//#define DDWFONT_1(A)        [UIFont ddwFontWithSize:A]
+//#define DDWFONT_2(A, B)     [UIFont ddwFontWithSize:A weight:B]
+//#define DDWFONT_3(A, B, C)  [UIFont ddwFontWithName:A size:B weight:C]
 
 ///> Do not use this directly. Use the DDWFONT macro above.
 #define KQYFONT_1(A)        [UIFont systemFontOfSize:A]

@@ -8,6 +8,7 @@ target 'KeepQuantizeYourself' do
   # Pods for KeepQuantizeYourself
   pod 'AFNetworking'
   pod 'Masonry'
+  pod 'ReactiveObjC'
 
   target 'KeepQuantizeYourselfTests' do
     inherit! :search_paths

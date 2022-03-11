@@ -70,7 +70,7 @@
         _viewStaticButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [_viewStaticButton setTitle:@"查看近一周数据统计" forState:UIControlStateNormal];
         [_viewStaticButton setTitleColor:KQYHEX_1(@"999999") forState:UIControlStateNormal];
-        _viewStaticButton.titleLabel.font = KQYFONT_1(12);
+        _viewStaticButton.titleLabel.font = KQYFONT(12);
         SEL selector = @selector(viewStaticTouchUpInside);
         [_viewStaticButton addTarget:self action:selector forControlEvents:UIControlEventTouchUpInside];
     }
