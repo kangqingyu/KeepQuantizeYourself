@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AE7C4DB4FAF49DE9C9F9421 /* Pods_KeepQuantizeYourself.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372D920A5C75A3C7915395B6 /* Pods_KeepQuantizeYourself.framework */; };
 		682F8F8927CAF41C00D85A8B /* KQYIntakeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F7727CAF41C00D85A8B /* KQYIntakeViewModel.m */; };
 		682F8F8A27CAF41C00D85A8B /* KQYIntakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F7827CAF41C00D85A8B /* KQYIntakeView.m */; };
 		682F8F8B27CAF41C00D85A8B /* KQYIntakeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 682F8F7927CAF41C00D85A8B /* KQYIntakeTableViewCell.m */; };
@@ -28,8 +27,9 @@
 		6876EAB6279D367800519CA0 /* KeepQuantizeYourselfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876EAB5279D367800519CA0 /* KeepQuantizeYourselfTests.m */; };
 		6876EAC0279D367800519CA0 /* KeepQuantizeYourselfUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876EABF279D367800519CA0 /* KeepQuantizeYourselfUITests.m */; };
 		6876EAC2279D367800519CA0 /* KeepQuantizeYourselfUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6876EAC1279D367800519CA0 /* KeepQuantizeYourselfUITestsLaunchTests.m */; };
-		AC0340D0F8156AAAAB106440 /* Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF43A07D99C59FC3A2D4A01 /* Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework */; };
-		C0927130A00D8867A3CFD5DF /* Pods_KeepQuantizeYourselfTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424C81C9DE0EB21C645BB3B3 /* Pods_KeepQuantizeYourselfTests.framework */; };
+		6FAE7E1295863B5CFFAB572C /* Pods_KeepQuantizeYourselfTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442AE9B0CE1236E24F782142 /* Pods_KeepQuantizeYourselfTests.framework */; };
+		C4BF8E28B58825EBC6C4F285 /* Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6611250BA0802177B25B941 /* Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework */; };
+		D01C38FD93264AFB99F31410 /* Pods_KeepQuantizeYourself.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E357558AD3F21209475BA248 /* Pods_KeepQuantizeYourself.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		028630A2ABFC90C489D37DEB /* Pods-KeepQuantizeYourselfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourselfTests.debug.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourselfTests/Pods-KeepQuantizeYourselfTests.debug.xcconfig"; sourceTree = "<group>"; };
-		372D920A5C75A3C7915395B6 /* Pods_KeepQuantizeYourself.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepQuantizeYourself.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		424C81C9DE0EB21C645BB3B3 /* Pods_KeepQuantizeYourselfTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepQuantizeYourselfTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4611161EBDF3C52E775AB783 /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0097B0B37FCD36190D95E507 /* Pods-KeepQuantizeYourself.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourself.debug.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourself/Pods-KeepQuantizeYourself.debug.xcconfig"; sourceTree = "<group>"; };
+		184A6F5B5B37F02CCE8F769F /* Pods-KeepQuantizeYourselfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourselfTests.release.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourselfTests/Pods-KeepQuantizeYourselfTests.release.xcconfig"; sourceTree = "<group>"; };
+		188C6D8E382AB1C0AC9863E7 /* Pods-KeepQuantizeYourself.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourself.release.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourself/Pods-KeepQuantizeYourself.release.xcconfig"; sourceTree = "<group>"; };
+		442AE9B0CE1236E24F782142 /* Pods_KeepQuantizeYourselfTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepQuantizeYourselfTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6098C673A8A9ADD981185259 /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.debug.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		682F8F7727CAF41C00D85A8B /* KQYIntakeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYIntakeViewModel.m; sourceTree = "<group>"; };
 		682F8F7827CAF41C00D85A8B /* KQYIntakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYIntakeView.m; sourceTree = "<group>"; };
 		682F8F7927CAF41C00D85A8B /* KQYIntakeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQYIntakeTableViewCell.m; sourceTree = "<group>"; };
@@ -92,11 +93,10 @@
 		6876EABB279D367800519CA0 /* KeepQuantizeYourselfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepQuantizeYourselfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6876EABF279D367800519CA0 /* KeepQuantizeYourselfUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeepQuantizeYourselfUITests.m; sourceTree = "<group>"; };
 		6876EAC1279D367800519CA0 /* KeepQuantizeYourselfUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeepQuantizeYourselfUITestsLaunchTests.m; sourceTree = "<group>"; };
-		764FD9F08B06901D7CDA5DAA /* Pods-KeepQuantizeYourself.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourself.release.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourself/Pods-KeepQuantizeYourself.release.xcconfig"; sourceTree = "<group>"; };
-		ADF43A07D99C59FC3A2D4A01 /* Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D17E1A84457774520C4D77C7 /* Pods-KeepQuantizeYourself.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourself.debug.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourself/Pods-KeepQuantizeYourself.debug.xcconfig"; sourceTree = "<group>"; };
-		F1175D9EC33C76A6A161F9B8 /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.debug.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F91C0D2B01534128008CC3F3 /* Pods-KeepQuantizeYourselfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourselfTests.release.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourselfTests/Pods-KeepQuantizeYourselfTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6611250BA0802177B25B941 /* Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCF4C4F47B9CF5165EDDFED /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C27536884E4D2FA60B457F85 /* Pods-KeepQuantizeYourselfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepQuantizeYourselfTests.debug.xcconfig"; path = "Target Support Files/Pods-KeepQuantizeYourselfTests/Pods-KeepQuantizeYourselfTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E357558AD3F21209475BA248 /* Pods_KeepQuantizeYourself.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepQuantizeYourself.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AE7C4DB4FAF49DE9C9F9421 /* Pods_KeepQuantizeYourself.framework in Frameworks */,
+				D01C38FD93264AFB99F31410 /* Pods_KeepQuantizeYourself.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0927130A00D8867A3CFD5DF /* Pods_KeepQuantizeYourselfTests.framework in Frameworks */,
+				6FAE7E1295863B5CFFAB572C /* Pods_KeepQuantizeYourselfTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0340D0F8156AAAAB106440 /* Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework in Frameworks */,
+				C4BF8E28B58825EBC6C4F285 /* Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,24 +130,14 @@
 		520CEF6CC4299DED12C2D129 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D17E1A84457774520C4D77C7 /* Pods-KeepQuantizeYourself.debug.xcconfig */,
-				764FD9F08B06901D7CDA5DAA /* Pods-KeepQuantizeYourself.release.xcconfig */,
-				F1175D9EC33C76A6A161F9B8 /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.debug.xcconfig */,
-				4611161EBDF3C52E775AB783 /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig */,
-				028630A2ABFC90C489D37DEB /* Pods-KeepQuantizeYourselfTests.debug.xcconfig */,
-				F91C0D2B01534128008CC3F3 /* Pods-KeepQuantizeYourselfTests.release.xcconfig */,
+				0097B0B37FCD36190D95E507 /* Pods-KeepQuantizeYourself.debug.xcconfig */,
+				188C6D8E382AB1C0AC9863E7 /* Pods-KeepQuantizeYourself.release.xcconfig */,
+				6098C673A8A9ADD981185259 /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.debug.xcconfig */,
+				BDCF4C4F47B9CF5165EDDFED /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig */,
+				C27536884E4D2FA60B457F85 /* Pods-KeepQuantizeYourselfTests.debug.xcconfig */,
+				184A6F5B5B37F02CCE8F769F /* Pods-KeepQuantizeYourselfTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		5839E2154039AD70749A022A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				372D920A5C75A3C7915395B6 /* Pods_KeepQuantizeYourself.framework */,
-				ADF43A07D99C59FC3A2D4A01 /* Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework */,
-				424C81C9DE0EB21C645BB3B3 /* Pods_KeepQuantizeYourselfTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		682F8F7427CAF39A00D85A8B /* KQYFoundation */ = {
@@ -219,7 +209,7 @@
 				6876EABE279D367800519CA0 /* KeepQuantizeYourselfUITests */,
 				6876EA97279D367600519CA0 /* Products */,
 				520CEF6CC4299DED12C2D129 /* Pods */,
-				5839E2154039AD70749A022A /* Frameworks */,
+				E0FD5F0E055DD85DBEBA7B45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -271,6 +261,16 @@
 			path = KeepQuantizeYourselfUITests;
 			sourceTree = "<group>";
 		};
+		E0FD5F0E055DD85DBEBA7B45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E357558AD3F21209475BA248 /* Pods_KeepQuantizeYourself.framework */,
+				B6611250BA0802177B25B941 /* Pods_KeepQuantizeYourself_KeepQuantizeYourselfUITests.framework */,
+				442AE9B0CE1236E24F782142 /* Pods_KeepQuantizeYourselfTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -278,11 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6876EAC5279D367800519CA0 /* Build configuration list for PBXNativeTarget "KeepQuantizeYourself" */;
 			buildPhases = (
-				62D31E37C2EBDBFD94DC67D2 /* [CP] Check Pods Manifest.lock */,
+				859A38F0E824C3DB51E1A070 /* [CP] Check Pods Manifest.lock */,
 				6876EA92279D367600519CA0 /* Sources */,
 				6876EA93279D367600519CA0 /* Frameworks */,
 				6876EA94279D367600519CA0 /* Resources */,
-				81BBCAF45F0A43B520BB220E /* [CP] Embed Pods Frameworks */,
+				AFADAC4E6670FD872B8719AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,7 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6876EAC8279D367800519CA0 /* Build configuration list for PBXNativeTarget "KeepQuantizeYourselfTests" */;
 			buildPhases = (
-				F1DE36CDEE5A054E6358416F /* [CP] Check Pods Manifest.lock */,
+				ED78A5D12F8FDB0F3DEE11A0 /* [CP] Check Pods Manifest.lock */,
 				6876EAAD279D367800519CA0 /* Sources */,
 				6876EAAE279D367800519CA0 /* Frameworks */,
 				6876EAAF279D367800519CA0 /* Resources */,
@@ -316,11 +316,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6876EACB279D367800519CA0 /* Build configuration list for PBXNativeTarget "KeepQuantizeYourselfUITests" */;
 			buildPhases = (
-				5D6111B1989353227329782B /* [CP] Check Pods Manifest.lock */,
+				2B0A349F9A9B912BCE8DBB04 /* [CP] Check Pods Manifest.lock */,
 				6876EAB7279D367800519CA0 /* Sources */,
 				6876EAB8279D367800519CA0 /* Frameworks */,
 				6876EAB9279D367800519CA0 /* Resources */,
-				668D3E5BAEC093330954F1A9 /* [CP] Embed Pods Frameworks */,
+				2B7A8AAEE1CAD1BF0A80EBF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -404,7 +404,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5D6111B1989353227329782B /* [CP] Check Pods Manifest.lock */ = {
+		2B0A349F9A9B912BCE8DBB04 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -426,7 +426,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		62D31E37C2EBDBFD94DC67D2 /* [CP] Check Pods Manifest.lock */ = {
+		2B7A8AAEE1CAD1BF0A80EBF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		859A38F0E824C3DB51E1A070 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,24 +465,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		668D3E5BAEC093330954F1A9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests/Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		81BBCAF45F0A43B520BB220E /* [CP] Embed Pods Frameworks */ = {
+		AFADAC4E6670FD872B8719AB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -482,7 +482,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeepQuantizeYourself/Pods-KeepQuantizeYourself-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F1DE36CDEE5A054E6358416F /* [CP] Check Pods Manifest.lock */ = {
+		ED78A5D12F8FDB0F3DEE11A0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -694,7 +694,7 @@
 		};
 		6876EAC6279D367800519CA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D17E1A84457774520C4D77C7 /* Pods-KeepQuantizeYourself.debug.xcconfig */;
+			baseConfigurationReference = 0097B0B37FCD36190D95E507 /* Pods-KeepQuantizeYourself.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -710,7 +710,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -725,7 +725,7 @@
 		};
 		6876EAC7279D367800519CA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 764FD9F08B06901D7CDA5DAA /* Pods-KeepQuantizeYourself.release.xcconfig */;
+			baseConfigurationReference = 188C6D8E382AB1C0AC9863E7 /* Pods-KeepQuantizeYourself.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -741,7 +741,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -756,7 +756,7 @@
 		};
 		6876EAC9279D367800519CA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 028630A2ABFC90C489D37DEB /* Pods-KeepQuantizeYourselfTests.debug.xcconfig */;
+			baseConfigurationReference = C27536884E4D2FA60B457F85 /* Pods-KeepQuantizeYourselfTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -775,7 +775,7 @@
 		};
 		6876EACA279D367800519CA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F91C0D2B01534128008CC3F3 /* Pods-KeepQuantizeYourselfTests.release.xcconfig */;
+			baseConfigurationReference = 184A6F5B5B37F02CCE8F769F /* Pods-KeepQuantizeYourselfTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -794,7 +794,7 @@
 		};
 		6876EACC279D367800519CA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1175D9EC33C76A6A161F9B8 /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.debug.xcconfig */;
+			baseConfigurationReference = 6098C673A8A9ADD981185259 /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -811,7 +811,7 @@
 		};
 		6876EACD279D367800519CA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4611161EBDF3C52E775AB783 /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig */;
+			baseConfigurationReference = BDCF4C4F47B9CF5165EDDFED /* Pods-KeepQuantizeYourself-KeepQuantizeYourselfUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
