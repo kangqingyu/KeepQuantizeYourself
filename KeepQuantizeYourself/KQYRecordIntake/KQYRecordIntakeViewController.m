@@ -77,4 +77,13 @@
     return _viewStaticButton;
 }
 
+- (void)didReceiveMemoryWarning {
+    
+}
+- (void)applicationFinishedRestoringState {
+    
+}
+
+
+
 @end
